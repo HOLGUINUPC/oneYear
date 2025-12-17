@@ -23,4 +23,39 @@ body {
   background: var(--background);
   color: var(--foreground);
   font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+/* Global styles come from external css https://codepen.io/GreenSock/pen/xxmzBrw */
+
+.box {
+  width: 100px;
+  height: 100px;
+  display: block;
+}
+
+.box1 {
+  opacity: 0;
+  font-size: 3rem;
+  color: #d63384;
+  font-weight: bold;
+  text-align: center;
+  font-family: var(--font-oswald);
+}
+
+.green {
+  background-color: green;
+}
+
+.orange {
+  background-color: orange;
+}
+
+.purple {
+  background-color: purple;
+}
+
+.pink {
+  background-color: pink;
 }
