@@ -48,6 +48,76 @@ body {
   background-color: green;
 }
 
+/* --- RESPONSIVE STYLES --- */
+@media (max-width: 768px) {
+
+  /* Intro Text */
+  .intro-text {
+    font-size: 2rem !important;
+    text-align: center;
+    padding: 0 20px;
+  }
+
+  /* Section Titles */
+  .section-title {
+    font-size: 2rem !important;
+  }
+
+  /* Section Paragraphs */
+  .section-text {
+    font-size: 1.1rem !important;
+    padding: 0 20px;
+  }
+
+  /* Collage Container */
+  .collage-container {
+    width: 90% !important;
+    aspect-ratio: 3/5 !important;
+    /* Make it vertical for mobile */
+    max-width: none !important;
+  }
+
+  /* Main Video Card */
+  .main-video-card {
+    height: 100% !important;
+    /* Fit the container */
+    border-radius: 20px !important;
+  }
+
+  /* Floating Videos */
+  .floating-video {
+    width: 110px !important;
+    /* Smaller size */
+    border-radius: 10px !important;
+  }
+
+  /* Modal */
+  .modal-content {
+    width: 90% !important;
+    padding: 20px !important;
+    max-height: 80vh;
+    overflow-y: auto;
+  }
+
+  .modal-title {
+    font-size: 1.5rem !important;
+  }
+
+  .modal-text {
+    font-size: 1rem !important;
+  }
+
+  /* Final Section */
+  .final-title {
+    font-size: 2rem !important;
+  }
+
+  .final-text {
+    font-size: 1.1rem !important;
+    padding: 0 15px;
+  }
+}
+
 .orange {
   background-color: orange;
 }

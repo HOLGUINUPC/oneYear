@@ -282,7 +282,7 @@ export default function Home() {
                 display: "flex", alignItems: "center", justifyContent: "center"
               }}
             >
-              <h1 ref={introTextRef} style={{ fontSize: "4rem", fontFamily: "serif", fontWeight: "lighter", color: "white" }}>
+              <h1 ref={introTextRef} className="intro-text" style={{ fontSize: "4rem", fontFamily: "serif", fontWeight: "lighter", color: "white" }}>
                 CON MUCHO AMOR,
 
 
@@ -320,7 +320,7 @@ export default function Home() {
         }}
       >
         <div style={{ maxWidth: "800px" }}>
-          <h2 style={{
+          <h2 className="section-title" style={{
             fontSize: "3rem",
             fontFamily: "var(--font-oswald), sans-serif",
             marginBottom: "30px",
@@ -330,7 +330,7 @@ export default function Home() {
           }}>
             Para ti, Val
           </h2>
-          <p style={{
+          <p className="section-text" style={{
             fontSize: "1.5rem",
             lineHeight: "1.8",
             color: "#444",
@@ -359,7 +359,7 @@ export default function Home() {
         }}
       >
         {/* CONTENEDOR CENTRAL DEL COLLAGE */}
-        <div style={{ position: "relative", width: "80%", maxWidth: "1000px", aspectRatio: "16/9" }}>
+        <div className="collage-container" style={{ position: "relative", width: "80%", maxWidth: "1000px", aspectRatio: "16/9" }}>
 
           {/* 1. VIDEO PRINCIPAL (GRANDE CENTRO) */}
           <div
@@ -369,9 +369,8 @@ export default function Home() {
             onMouseEnter={() => enterCursorLabel("MES DE LA PROPUESTA")}
             onClick={() => openModal("MES DE LA PROPUESTA", "Estaba tan confundido. \n\n  Me pasaba horas intentando entender lo que estaba sintiendo. No quería ilusionarme con alguien que en realidad no conocía. \n Yo sabía que ella era una buena chica por todo lo que me contaba Álvaro. Te conocí cada vez más y entendí que Dios puso en mi camino a la persona indicada para mí.  ")}
             // -------------------------------
-            style={{
-              width: "100%",
-              height: "170%",
+            className="main-video-card" style={{
+              width: "100%", height: "170%",
               borderRadius: "30px",
               overflow: "hidden",
               boxShadow: "0 20px 40px rgba(0,0,0,0.2)",
@@ -387,7 +386,7 @@ export default function Home() {
 
           {/* 2. VIDEO FLOTANTE IZQUIERDA (Pequeño) */}
           <div
-            ref={videoSmall1}
+            className="floating-video" ref={videoSmall1}
             style={{
               position: "absolute",
               top: "20%",  // Ajusta altura
@@ -408,7 +407,7 @@ export default function Home() {
 
           {/* 3. VIDEO FLOTANTE DERECHA (Pequeño) */}
           <div
-            ref={videoSmall2}
+            className="floating-video" ref={videoSmall2}
             style={{
               position: "absolute",
               bottom: "10%", // Lo ponemos más abajo
@@ -460,7 +459,7 @@ export default function Home() {
         }}
       >
         {/* CONTENEDOR CENTRAL DEL COLLAGE */}
-        <div style={{ position: "relative", width: "80%", maxWidth: "1000px", aspectRatio: "16/9" }}>
+        <div className="collage-container" style={{ position: "relative", width: "80%", maxWidth: "1000px", aspectRatio: "16/9" }}>
 
           {/* 1. VIDEO PRINCIPAL (GRANDE CENTRO) */}
           <div
@@ -468,9 +467,8 @@ export default function Home() {
             onMouseLeave={leaveCursorLabel}
             onMouseEnter={() => enterCursorLabel("PRIMER MES JUNTOS")}
             onClick={() => openModal("PRIMER MES", "Nos conocimos mucho más \n\n Fue hermoso empezar las vacaciones con una persona tan especial como Valeria. \n Aprendí lo que es estar enamorado de una persona la cual te ama de la misma forma, nos conocimos mucho más y empezamos a entendernos profundamente. ")}
-            style={{
-              width: "100%",
-              height: "170%",
+            className="main-video-card" style={{
+              width: "100%", height: "170%",
               borderRadius: "30px",
               overflow: "hidden",
               boxShadow: "0 20px 40px rgba(0,0,0,0.2)",
@@ -486,7 +484,7 @@ export default function Home() {
 
           {/* 2. VIDEO FLOTANTE IZQUIERDA (Pequeño) */}
           <div
-            ref={videoSmall1}
+            className="floating-video" ref={videoSmall1}
             style={{
               position: "absolute",
               top: "63%",  // Ajusta altura
@@ -507,7 +505,7 @@ export default function Home() {
 
           {/* 3. VIDEO FLOTANTE DERECHA (Pequeño) */}
           <div
-            ref={videoSmall2}
+            className="floating-video" ref={videoSmall2}
             style={{
               position: "absolute",
               bottom: "53%", // Lo ponemos más abajo
@@ -559,7 +557,7 @@ export default function Home() {
         }}
       >
         {/* CONTENEDOR CENTRAL DEL COLLAGE */}
-        <div style={{ position: "relative", width: "80%", maxWidth: "1000px", aspectRatio: "16/9" }}>
+        <div className="collage-container" style={{ position: "relative", width: "80%", maxWidth: "1000px", aspectRatio: "16/9" }}>
 
           {/* 1. VIDEO PRINCIPAL (GRANDE CENTRO) */}
           <div
@@ -567,9 +565,8 @@ export default function Home() {
             onMouseLeave={leaveCursorLabel}
             onMouseEnter={() => enterCursorLabel("SEGUNDO MES JUNTOS")}
             onClick={() => openModal("SEGUNDO MES", "Me esforcé mucho. \n\n Yo sabía que para Valeria, el 14 de Febrero era un día muy especial, así que hice todo lo posible para que sea un día inolvidable para ella, no quería defraudarla. \n Seguíamos en vacas y nos veíamos seguido, cada día que pasaba y te conocía más, me llenaba de felicidad y paz.")}
-            style={{
-              width: "100%",
-              height: "170%",
+            className="main-video-card" style={{
+              width: "100%", height: "170%",
               borderRadius: "30px",
               overflow: "hidden",
               boxShadow: "0 20px 40px rgba(0,0,0,0.2)",
@@ -585,7 +582,7 @@ export default function Home() {
 
           {/* 2. VIDEO FLOTANTE IZQUIERDA (Pequeño) */}
           <div
-            ref={videoSmall1}
+            className="floating-video" ref={videoSmall1}
             style={{
               position: "absolute",
               top: "40%",  // Ajusta altura
@@ -606,7 +603,7 @@ export default function Home() {
 
           {/* 3. VIDEO FLOTANTE DERECHA (Pequeño) */}
           <div
-            ref={videoSmall2}
+            className="floating-video" ref={videoSmall2}
             style={{
               position: "absolute",
               bottom: "10%", // Lo ponemos más abajo
@@ -626,7 +623,7 @@ export default function Home() {
             />
           </div>
           <div
-            ref={videoSmall2}
+            className="floating-video" ref={videoSmall2}
             style={{
               position: "absolute",
               bottom: "69%", // Lo ponemos más abajo
@@ -678,7 +675,7 @@ export default function Home() {
         }}
       >
         {/* CONTENEDOR CENTRAL DEL COLLAGE */}
-        <div style={{ position: "relative", width: "80%", maxWidth: "1000px", aspectRatio: "16/9" }}>
+        <div className="collage-container" style={{ position: "relative", width: "80%", maxWidth: "1000px", aspectRatio: "16/9" }}>
 
           {/* 1. VIDEO PRINCIPAL (GRANDE CENTRO) */}
           <div
@@ -686,9 +683,8 @@ export default function Home() {
             onMouseLeave={leaveCursorLabel}
             onMouseEnter={() => enterCursorLabel("TERCER MES JUNTOS")}
             onClick={() => openModal("TERCER MES", "Fue la que siempre estuvo ahí. \n\n Desde que estuve mal de la espalda. Ella fue la que me daba fuerzas y esperanzas para poder mejorarme, y así fue. \n Aprendimos nuevas cosas juntos en este mes y a pesar del poco tiempo que llevábamos nos amábamos como si lleváramos años juntos.")}
-            style={{
-              width: "100%",
-              height: "170%",
+            className="main-video-card" style={{
+              width: "100%", height: "170%",
               borderRadius: "30px",
               overflow: "hidden",
               boxShadow: "0 20px 40px rgba(0,0,0,0.2)",
@@ -704,7 +700,7 @@ export default function Home() {
 
           {/* 2. VIDEO FLOTANTE IZQUIERDA (Pequeño) */}
           <div
-            ref={videoSmall1}
+            className="floating-video" ref={videoSmall1}
             style={{
               position: "absolute",
               top: "57%",  // Ajusta altura
@@ -725,7 +721,7 @@ export default function Home() {
 
           {/* 3. VIDEO FLOTANTE DERECHA (Pequeño) */}
           <div
-            ref={videoSmall2}
+            className="floating-video" ref={videoSmall2}
             style={{
               position: "absolute",
               bottom: "55%", // Lo ponemos más abajo
@@ -777,7 +773,7 @@ export default function Home() {
         }}
       >
         {/* CONTENEDOR CENTRAL DEL COLLAGE */}
-        <div style={{ position: "relative", width: "80%", maxWidth: "1000px", aspectRatio: "16/9" }}>
+        <div className="collage-container" style={{ position: "relative", width: "80%", maxWidth: "1000px", aspectRatio: "16/9" }}>
 
           {/* 1. VIDEO PRINCIPAL (GRANDE CENTRO) */}
           <div
@@ -785,9 +781,8 @@ export default function Home() {
             onMouseLeave={leaveCursorLabel}
             onMouseEnter={() => enterCursorLabel("CUARTO MES JUNTOS")}
             onClick={() => openModal("CUARTO MES", "Empezó la universidad. \n\n Estábamos nerviosos por todo lo nuevo que venía en la relación, ya que no sabíamos lo que era lidiar con los estudios y la distancia. \n Yo confiaba en ella y ella confiaba en mí.")}
-            style={{
-              width: "100%",
-              height: "170%",
+            className="main-video-card" style={{
+              width: "100%", height: "170%",
               borderRadius: "30px",
               overflow: "hidden",
               boxShadow: "0 20px 40px rgba(0,0,0,0.2)",
@@ -803,7 +798,7 @@ export default function Home() {
 
           {/* 2. VIDEO FLOTANTE IZQUIERDA (Pequeño) */}
           <div
-            ref={videoSmall1}
+            className="floating-video" ref={videoSmall1}
             style={{
               position: "absolute",
               top: "20%",  // Ajusta altura
@@ -824,7 +819,7 @@ export default function Home() {
 
           {/* 3. VIDEO FLOTANTE DERECHA (Pequeño) */}
           <div
-            ref={videoSmall2}
+            className="floating-video" ref={videoSmall2}
             style={{
               position: "absolute",
               bottom: "10%", // Lo ponemos más abajo
@@ -876,7 +871,7 @@ export default function Home() {
         }}
       >
         {/* CONTENEDOR CENTRAL DEL COLLAGE */}
-        <div style={{ position: "relative", width: "80%", maxWidth: "1000px", aspectRatio: "16/9" }}>
+        <div className="collage-container" style={{ position: "relative", width: "80%", maxWidth: "1000px", aspectRatio: "16/9" }}>
 
           {/* 1. VIDEO PRINCIPAL (GRANDE CENTRO) */}
           <div
@@ -884,9 +879,8 @@ export default function Home() {
             onMouseLeave={leaveCursorLabel}
             onMouseEnter={() => enterCursorLabel("QUINTO MES JUNTOS")}
             onClick={() => openModal("QUINTO MES", "Un mes para aprender \n\n Tuvimos algunas discusiones, ya que la situación había cambiado a comparación de vacaciones. Ella siempre lo ha sido todo para mí, así que intenté mejorar todos los defectos que yo podía tener. Seguíamos juntos e intentando ser mejores cada día.")}
-            style={{
-              width: "100%",
-              height: "170%",
+            className="main-video-card" style={{
+              width: "100%", height: "170%",
               borderRadius: "30px",
               overflow: "hidden",
               boxShadow: "0 20px 40px rgba(0,0,0,0.2)",
@@ -902,7 +896,7 @@ export default function Home() {
 
           {/* 2. VIDEO FLOTANTE IZQUIERDA (Pequeño) */}
           <div
-            ref={videoSmall1}
+            className="floating-video" ref={videoSmall1}
             style={{
               position: "absolute",
               top: "20%",  // Ajusta altura
@@ -922,7 +916,7 @@ export default function Home() {
           </div>
 
           <div
-            ref={videoSmall1}
+            className="floating-video" ref={videoSmall1}
             style={{
               position: "absolute",
               top: "10%",  // Ajusta altura
@@ -943,7 +937,7 @@ export default function Home() {
 
           {/* 3. VIDEO FLOTANTE DERECHA (Pequeño) */}
           <div
-            ref={videoSmall2}
+            className="floating-video" ref={videoSmall2}
             style={{
               position: "absolute",
               bottom: "10%", // Lo ponemos más abajo
@@ -995,7 +989,7 @@ export default function Home() {
         }}
       >
         {/* CONTENEDOR CENTRAL DEL COLLAGE */}
-        <div style={{ position: "relative", width: "80%", maxWidth: "1000px", aspectRatio: "16/9" }}>
+        <div className="collage-container" style={{ position: "relative", width: "80%", maxWidth: "1000px", aspectRatio: "16/9" }}>
 
           {/* 1. VIDEO PRINCIPAL (GRANDE CENTRO) */}
           <div
@@ -1003,9 +997,8 @@ export default function Home() {
             onMouseLeave={leaveCursorLabel}
             onMouseEnter={() => enterCursorLabel("SEXTO MES JUNTOS")}
             onClick={() => openModal("SEXTO MES", "El mes de mi cumpleaños \n\n En este mes me sentí amado de verdad, jamás en mi vida sentí a alguien que no fuera mi familia me amara tanto. Me regaló mi caseta del primer tricampeonato de la U. Un polo negrito de la U para vestir y un peluche de garrita. Me sentí la persona más afortunada del universo.")}
-            style={{
-              width: "100%",
-              height: "170%",
+            className="main-video-card" style={{
+              width: "100%", height: "170%",
               borderRadius: "30px",
               overflow: "hidden",
               boxShadow: "0 20px 40px rgba(0,0,0,0.2)",
@@ -1021,7 +1014,7 @@ export default function Home() {
 
           {/* 2. VIDEO FLOTANTE IZQUIERDA (Pequeño) */}
           <div
-            ref={videoSmall1}
+            className="floating-video" ref={videoSmall1}
             style={{
               position: "absolute",
               top: "20%",  // Ajusta altura
@@ -1042,7 +1035,7 @@ export default function Home() {
 
           {/* 3. VIDEO FLOTANTE DERECHA (Pequeño) */}
           <div
-            ref={videoSmall2}
+            className="floating-video" ref={videoSmall2}
             style={{
               position: "absolute",
               bottom: "10%", // Lo ponemos más abajo
@@ -1094,7 +1087,7 @@ export default function Home() {
         }}
       >
         {/* CONTENEDOR CENTRAL DEL COLLAGE */}
-        <div style={{ position: "relative", width: "80%", maxWidth: "1000px", aspectRatio: "16/9" }}>
+        <div className="collage-container" style={{ position: "relative", width: "80%", maxWidth: "1000px", aspectRatio: "16/9" }}>
 
           {/* 1. VIDEO PRINCIPAL (GRANDE CENTRO) */}
           <div
@@ -1102,9 +1095,8 @@ export default function Home() {
             onMouseLeave={leaveCursorLabel}
             onMouseEnter={() => enterCursorLabel("SEPTIMO MES JUNTOS")}
             onClick={() => openModal("SÉPTIMO MES", "Llegó el cumpleaños de Valeria \n\n Ya no estaba trabajando por lo que no podía darle un regalo tan grande. \nBusqué por todos lados la manera de hacerle algo lindo. Me hubiera gustado darle más pero era todo lo que podía dar en ese momento. Al final se lo di y le gustó mucho :) \n Vivimos más momentos bonitos juntos")}
-            style={{
-              width: "100%",
-              height: "170%",
+            className="main-video-card" style={{
+              width: "100%", height: "170%",
               borderRadius: "30px",
               overflow: "hidden",
               boxShadow: "0 20px 40px rgba(0,0,0,0.2)",
@@ -1120,7 +1112,7 @@ export default function Home() {
 
           {/* 2. VIDEO FLOTANTE IZQUIERDA (Pequeño) */}
           <div
-            ref={videoSmall1}
+            className="floating-video" ref={videoSmall1}
             style={{
               position: "absolute",
               top: "20%",  // Ajusta altura
@@ -1139,7 +1131,7 @@ export default function Home() {
             />
           </div>
           <div
-            ref={videoSmall1}
+            className="floating-video" ref={videoSmall1}
             style={{
               position: "absolute",
               top: "65%",  // Ajusta altura
@@ -1160,7 +1152,7 @@ export default function Home() {
 
           {/* 3. VIDEO FLOTANTE DERECHA (Pequeño) */}
           <div
-            ref={videoSmall2}
+            className="floating-video" ref={videoSmall2}
             style={{
               position: "absolute",
               bottom: "15%", // Lo ponemos más abajo
@@ -1212,7 +1204,7 @@ export default function Home() {
         }}
       >
         {/* CONTENEDOR CENTRAL DEL COLLAGE */}
-        <div style={{ position: "relative", width: "80%", maxWidth: "1000px", aspectRatio: "16/9" }}>
+        <div className="collage-container" style={{ position: "relative", width: "80%", maxWidth: "1000px", aspectRatio: "16/9" }}>
 
           {/* 1. VIDEO PRINCIPAL (GRANDE CENTRO) */}
           <div
@@ -1220,9 +1212,8 @@ export default function Home() {
             onMouseLeave={leaveCursorLabel}
             onMouseEnter={() => enterCursorLabel("OCTAVO MES JUNTOS")}
             onClick={() => openModal("OCTAVO MES", "Casi la misma situación. \n\n Ocho meses y seguíamos juntos como si hubiera pasado solo un mes, intentaba siempre alimentarla de cualquier manera ajaja, \n Siempre me ha encantado verla sonreír y ser feliz conmigo e iba a hacer lo posible para siempre verla así. ")}
-            style={{
-              width: "100%",
-              height: "170%",
+            className="main-video-card" style={{
+              width: "100%", height: "170%",
               borderRadius: "30px",
               overflow: "hidden",
               boxShadow: "0 20px 40px rgba(0,0,0,0.2)",
@@ -1238,7 +1229,7 @@ export default function Home() {
 
           {/* 2. VIDEO FLOTANTE IZQUIERDA (Pequeño) */}
           <div
-            ref={videoSmall1}
+            className="floating-video" ref={videoSmall1}
             style={{
               position: "absolute",
               top: "20%",  // Ajusta altura
@@ -1259,7 +1250,7 @@ export default function Home() {
 
           {/* 3. VIDEO FLOTANTE DERECHA (Pequeño) */}
           <div
-            ref={videoSmall2}
+            className="floating-video" ref={videoSmall2}
             style={{
               position: "absolute",
               bottom: "10%", // Lo ponemos más abajo
@@ -1311,7 +1302,7 @@ export default function Home() {
         }}
       >
         {/* CONTENEDOR CENTRAL DEL COLLAGE */}
-        <div style={{ position: "relative", width: "80%", maxWidth: "1000px", aspectRatio: "16/9" }}>
+        <div className="collage-container" style={{ position: "relative", width: "80%", maxWidth: "1000px", aspectRatio: "16/9" }}>
 
           {/* 1. VIDEO PRINCIPAL (GRANDE CENTRO) */}
           <div
@@ -1320,9 +1311,8 @@ export default function Home() {
             onMouseEnter={() => enterCursorLabel("NOVENO MES JUNTOS")}
             onClick={() => openModal("NOVENO MES", " Un nuevo reto para nosotros \n\n En este mes empecé a hacer mis prácticas pre profesionales. \n La rutina de nuestra relación cambió drásticamente en este mes, pero entendimos que era bueno, e hicimos todo lo posible para continuar felices. ")}
 
-            style={{
-              width: "100%",
-              height: "170%",
+            className="main-video-card" style={{
+              width: "100%", height: "170%",
               borderRadius: "30px",
               overflow: "hidden",
               boxShadow: "0 20px 40px rgba(0,0,0,0.2)",
@@ -1338,7 +1328,7 @@ export default function Home() {
 
           {/* 2. VIDEO FLOTANTE IZQUIERDA (Pequeño) */}
           <div
-            ref={videoSmall1}
+            className="floating-video" ref={videoSmall1}
             style={{
               position: "absolute",
               top: "20%",  // Ajusta altura
@@ -1357,7 +1347,7 @@ export default function Home() {
             />
           </div>
           <div
-            ref={videoSmall1}
+            className="floating-video" ref={videoSmall1}
             style={{
               position: "absolute",
               top: "10%",  // Ajusta altura
@@ -1378,7 +1368,7 @@ export default function Home() {
 
           {/* 3. VIDEO FLOTANTE DERECHA (Pequeño) */}
           <div
-            ref={videoSmall2}
+            className="floating-video" ref={videoSmall2}
             style={{
               position: "absolute",
               bottom: "10%", // Lo ponemos más abajo
@@ -1430,7 +1420,7 @@ export default function Home() {
         }}
       >
         {/* CONTENEDOR CENTRAL DEL COLLAGE */}
-        <div style={{ position: "relative", width: "80%", maxWidth: "1000px", aspectRatio: "16/9" }}>
+        <div className="collage-container" style={{ position: "relative", width: "80%", maxWidth: "1000px", aspectRatio: "16/9" }}>
 
           {/* 1. VIDEO PRINCIPAL (GRANDE CENTRO) */}
           <div
@@ -1439,9 +1429,8 @@ export default function Home() {
             onMouseEnter={() => enterCursorLabel("DÉCIMO MES JUNTOS")}
             onClick={() => openModal("DÉCIMO MES", " Seguimos avanzando juntos \n\n Hacíamos todo lo posible para no perder la comunicación y darnos al menos un momento a la semana para poder vernos.\n Siempre queriendo enamorarla de cualquier manera  . ")}
 
-            style={{
-              width: "100%",
-              height: "170%",
+            className="main-video-card" style={{
+              width: "100%", height: "170%",
               borderRadius: "30px",
               overflow: "hidden",
               boxShadow: "0 20px 40px rgba(0,0,0,0.2)",
@@ -1457,7 +1446,7 @@ export default function Home() {
 
           {/* 2. VIDEO FLOTANTE IZQUIERDA (Pequeño) */}
           <div
-            ref={videoSmall1}
+            className="floating-video" ref={videoSmall1}
             style={{
               position: "absolute",
               top: "20%",  // Ajusta altura
@@ -1477,7 +1466,7 @@ export default function Home() {
           </div>
 
           <div
-            ref={videoSmall1}
+            className="floating-video" ref={videoSmall1}
             style={{
               position: "absolute",
               top: "65%",  // Ajusta altura
@@ -1498,7 +1487,7 @@ export default function Home() {
 
           {/* 3. VIDEO FLOTANTE DERECHA (Pequeño) */}
           <div
-            ref={videoSmall2}
+            className="floating-video" ref={videoSmall2}
             style={{
               position: "absolute",
               bottom: "15%", // Lo ponemos más abajo
@@ -1550,7 +1539,7 @@ export default function Home() {
         }}
       >
         {/* CONTENEDOR CENTRAL DEL COLLAGE */}
-        <div style={{ position: "relative", width: "80%", maxWidth: "1000px", aspectRatio: "16/9" }}>
+        <div className="collage-container" style={{ position: "relative", width: "80%", maxWidth: "1000px", aspectRatio: "16/9" }}>
 
           {/* 1. VIDEO PRINCIPAL (GRANDE CENTRO) */}
           <div
@@ -1559,9 +1548,8 @@ export default function Home() {
             onMouseEnter={() => enterCursorLabel("ONCEAVO MES JUNTOS")}
             onClick={() => openModal("ONCEAVO MES", " Casi un año!! \n\n Fuimos al monumental por primera vez y tambien a ver a la U tricampeón en el monumental.\n Fue un mes en el cual fui muy feliz y pudimos compartir momentos duros pero también momentos hermosos. \n El tiempo se paso volando y realmente en ningun momento deje de amarla mucho. \n No quiero que esto jamás termine")}
 
-            style={{
-              width: "100%",
-              height: "170%",
+            className="main-video-card" style={{
+              width: "100%", height: "170%",
               borderRadius: "30px",
               overflow: "hidden",
               boxShadow: "0 20px 40px rgba(0,0,0,0.2)",
@@ -1577,7 +1565,7 @@ export default function Home() {
 
           {/* 2. VIDEO FLOTANTE IZQUIERDA (Pequeño) */}
           <div
-            ref={videoSmall1}
+            className="floating-video" ref={videoSmall1}
             style={{
               position: "absolute",
               top: "17%",  // Ajusta altura
@@ -1597,7 +1585,7 @@ export default function Home() {
           </div>
 
           <div
-            ref={videoSmall1}
+            className="floating-video" ref={videoSmall1}
             style={{
               position: "absolute",
               top: "76%",  // Ajusta altura
@@ -1618,7 +1606,7 @@ export default function Home() {
 
           {/* 3. VIDEO FLOTANTE DERECHA (Pequeño) */}
           <div
-            ref={videoSmall2}
+            className="floating-video" ref={videoSmall2}
             style={{
               position: "absolute",
               bottom: "10%", // Lo ponemos más abajo
@@ -1670,7 +1658,7 @@ export default function Home() {
           textAlign: "center"
         }}
       >
-        <h2 style={{
+        <h2 className="final-title" style={{
           fontFamily: "var(--font-oswald), sans-serif",
           fontSize: "3rem",
           marginBottom: "40px",
@@ -1680,7 +1668,7 @@ export default function Home() {
         }}>
           FELICES DOCE MESES MI AMOR
         </h2>
-        <div style={{
+        <div className="final-text" style={{
           fontFamily: "serif",
           fontSize: "1.5rem",
           lineHeight: "1.8",
@@ -1765,7 +1753,7 @@ export default function Home() {
         onClick={closeModal} // Close when clicking outside
       >
         <div
-          ref={modalContentRef}
+          className="modal-content" ref={modalContentRef}
           style={{
             backgroundColor: "#fff",
             padding: "40px",
@@ -1795,7 +1783,7 @@ export default function Home() {
           >
             ✕
           </button>
-          <h3 style={{
+          <h3 className="modal-title" style={{
             fontFamily: "var(--font-oswald), sans-serif",
             fontSize: "2rem",
             marginBottom: "20px",
@@ -1803,7 +1791,7 @@ export default function Home() {
           }}>
             {dedicatoria}
           </h3>
-          <p style={{
+          <p className="modal-text" style={{
             fontFamily: "serif",
             fontSize: "1.2rem",
             lineHeight: "1.6",
@@ -1850,3 +1838,6 @@ export default function Home() {
     </main>
   );
 }
+
+
+
