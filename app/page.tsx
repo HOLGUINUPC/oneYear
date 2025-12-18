@@ -427,21 +427,6 @@ export default function Home() {
             />
           </div>
 
-          {/* 4. ELEMENTO DECORATIVO (Estrella negra) */}
-          <div
-            ref={starRef}
-            style={{
-              position: "absolute",
-              bottom: "10%",
-              left: "-15%",
-              fontSize: "4rem",
-              color: "#111",
-              zIndex: 0
-            }}
-          >
-            ✦
-          </div>
-
         </div>
       </section>
       <section
@@ -523,21 +508,6 @@ export default function Home() {
               src="/ppisao.mp4" // <--- PON TU OTRO VIDEO AQUÍ
               style={{ width: "100%", height: "100%", objectFit: "cover" }}
             />
-          </div>
-
-          {/* 4. ELEMENTO DECORATIVO (Estrella negra) */}
-          <div
-            ref={starRef}
-            style={{
-              position: "absolute",
-              bottom: "10%",
-              left: "-15%",
-              fontSize: "4rem",
-              color: "#111",
-              zIndex: 0
-            }}
-          >
-            ✦
           </div>
 
         </div>
@@ -643,21 +613,6 @@ export default function Home() {
             />
           </div>
 
-          {/* 4. ELEMENTO DECORATIVO (Estrella negra) */}
-          <div
-            ref={starRef}
-            style={{
-              position: "absolute",
-              bottom: "10%",
-              left: "-15%",
-              fontSize: "4rem",
-              color: "#111",
-              zIndex: 0
-            }}
-          >
-            ✦
-          </div>
-
         </div>
       </section>
       <section
@@ -741,21 +696,6 @@ export default function Home() {
             />
           </div>
 
-          {/* 4. ELEMENTO DECORATIVO (Estrella negra) */}
-          <div
-            ref={starRef}
-            style={{
-              position: "absolute",
-              bottom: "10%",
-              left: "-15%",
-              fontSize: "4rem",
-              color: "#111",
-              zIndex: 0
-            }}
-          >
-            ✦
-          </div>
-
         </div>
       </section>
       <section
@@ -837,21 +777,6 @@ export default function Home() {
               src="/besi.mp4" // <--- PON TU OTRO VIDEO AQUÍ
               style={{ width: "100%", height: "100%", objectFit: "cover" }}
             />
-          </div>
-
-          {/* 4. ELEMENTO DECORATIVO (Estrella negra) */}
-          <div
-            ref={starRef}
-            style={{
-              position: "absolute",
-              bottom: "10%",
-              left: "-15%",
-              fontSize: "4rem",
-              color: "#111",
-              zIndex: 0
-            }}
-          >
-            ✦
           </div>
 
         </div>
@@ -957,21 +882,6 @@ export default function Home() {
             />
           </div>
 
-          {/* 4. ELEMENTO DECORATIVO (Estrella negra) */}
-          <div
-            ref={starRef}
-            style={{
-              position: "absolute",
-              bottom: "10%",
-              left: "-15%",
-              fontSize: "4rem",
-              color: "#111",
-              zIndex: 0
-            }}
-          >
-            ✦
-          </div>
-
         </div>
       </section>
       <section
@@ -1053,21 +963,6 @@ export default function Home() {
               src="/wow.mp4" // <--- PON TU OTRO VIDEO AQUÍ
               style={{ width: "100%", height: "100%", objectFit: "cover" }}
             />
-          </div>
-
-          {/* 4. ELEMENTO DECORATIVO (Estrella negra) */}
-          <div
-            ref={starRef}
-            style={{
-              position: "absolute",
-              bottom: "10%",
-              left: "-15%",
-              fontSize: "4rem",
-              color: "#111",
-              zIndex: 0
-            }}
-          >
-            ✦
           </div>
 
         </div>
@@ -1172,21 +1067,6 @@ export default function Home() {
             />
           </div>
 
-          {/* 4. ELEMENTO DECORATIVO (Estrella negra) */}
-          <div
-            ref={starRef}
-            style={{
-              position: "absolute",
-              bottom: "10%",
-              left: "-15%",
-              fontSize: "4rem",
-              color: "#111",
-              zIndex: 0
-            }}
-          >
-            ✦
-          </div>
-
         </div>
       </section>
       <section
@@ -1268,21 +1148,6 @@ export default function Home() {
               src="/MINOVIA.mp4" // <--- PON TU OTRO VIDEO AQUÍ
               style={{ width: "100%", height: "100%", objectFit: "cover" }}
             />
-          </div>
-
-          {/* 4. ELEMENTO DECORATIVO (Estrella negra) */}
-          <div
-            ref={starRef}
-            style={{
-              position: "absolute",
-              bottom: "10%",
-              left: "-15%",
-              fontSize: "4rem",
-              color: "#111",
-              zIndex: 0
-            }}
-          >
-            ✦
           </div>
 
         </div>
@@ -1386,21 +1251,6 @@ export default function Home() {
               src="/JIJI.mp4" // <--- PON TU OTRO VIDEO AQUÍ
               style={{ width: "100%", height: "100%", objectFit: "cover" }}
             />
-          </div>
-
-          {/* 4. ELEMENTO DECORATIVO (Estrella negra) */}
-          <div
-            ref={starRef}
-            style={{
-              position: "absolute",
-              bottom: "10%",
-              left: "-15%",
-              fontSize: "4rem",
-              color: "#111",
-              zIndex: 0
-            }}
-          >
-            ✦
           </div>
 
         </div>
@@ -1507,21 +1357,6 @@ export default function Home() {
             />
           </div>
 
-          {/* 4. ELEMENTO DECORATIVO (Estrella negra) */}
-          <div
-            ref={starRef}
-            style={{
-              position: "absolute",
-              bottom: "10%",
-              left: "-15%",
-              fontSize: "4rem",
-              color: "#111",
-              zIndex: 0
-            }}
-          >
-            ✦
-          </div>
-
         </div>
       </section>
       <section
@@ -1624,21 +1459,6 @@ export default function Home() {
               src="/nini.mp4" // <--- PON TU OTRO VIDEO AQUÍ
               style={{ width: "100%", height: "100%", objectFit: "cover" }}
             />
-          </div>
-
-          {/* 4. ELEMENTO DECORATIVO (Estrella negra) */}
-          <div
-            ref={starRef}
-            style={{
-              position: "absolute",
-              bottom: "10%",
-              left: "-15%",
-              fontSize: "4rem",
-              color: "#111",
-              zIndex: 0
-            }}
-          >
-            ✦
           </div>
 
         </div>
@@ -1838,6 +1658,8 @@ export default function Home() {
     </main>
   );
 }
+
+
 
 
 
