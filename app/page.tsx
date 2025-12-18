@@ -960,7 +960,7 @@ export default function Home() {
           >
             <video
               autoPlay muted loop playsInline
-              src="/wow.mp4" // <--- PON TU OTRO VIDEO AQUÍ
+              src="/WOW.mp4" // <--- PON TU OTRO VIDEO AQUÍ
               style={{ width: "100%", height: "100%", objectFit: "cover" }}
             />
           </div>
